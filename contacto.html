@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>IED Ignacio Pescador</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Ignacio Pescador, Proyectos Ondas, Modelo Educacion Relacional" name="keywords" />
+    <meta content="Ignacio Pescador, Proyectos Ondas, Modelo Educacion Relacional" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light sticky-top">
+      <nav
+        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5"
+      >
+        <a
+          href=""
+          class="navbar-brand font-weight-bold text-secondary"
+          style="font-size: 50px"
+        >
+          <i><img src="img/logotipo 2023 ip.jpg" alt="escudo IED Ignacio Pescador" height="90" width="90"></i>
+          <span class="text-primary">.</span>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav font-weight-bold mx-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Inicio</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >Comunidad</a
+              >
+              <div class="dropdown-menu rounded-0 m-0" >
+                <a href="index.html#institucional" class="dropdown-item">Institucional</a>
+                <a href="index.html#proyectos" class="dropdown-item">Proyectos</a>
+                <a href="galeria.html" class="dropdown-item">Galería</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >Primaria</a
+              >
+              <div class="dropdown-menu rounded-0 m-0" >
+                <a href="index.html#sedes_rurales" class="dropdown-item">Sedes Rurales</a>
+                <a href="index.html#sede_urbana" class="dropdown-item">Sedes Urbanas</a>
+                <a href="index.html#sede_jardin" class="dropdown-item">- Preescolar</a>
+                <a href="index.html#sede_urbana" class="dropdown-item">- Primero</a>
+                <a href="index.html#sede_urbana" class="dropdown-item">- Segundo</a>
+                <a href="index.html#sede_urbana" class="dropdown-item">- Tercero</a>
+                <a href="index.html#sede_urbana" class="dropdown-item">- Cuarto</a>
+                <a href="index.html#sede_urbana" class="dropdown-item">- Quinto</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >Secundaria</a
+              >
+              <div class="dropdown-menu rounded-0 m-0">
+                <a href="index.html#basica_secundaria" class="dropdown-item">Sexto</a>
+                <a href="index.html#basica_secundaria" class="dropdown-item">Septimo</a>
+                <a href="index.html#basica_secundaria" class="dropdown-item">Octavo</a>
+                <a href="index.html#basica_secundaria" class="dropdown-item">Noveno</a>
+                <a href="index.html#media_tecnica" class="dropdown-item">Décimo</a>
+                <a href="index.html#media_tecnica" class="dropdown-item">Undécimo</a>
+              </div>
+            </div>
+            <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+          </div>
+          <a href="" class="btn btn-primary px-4">Usuarios</a>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary mb-5">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center"
+        style="min-height: 400px"
+      >
+        <h3 class="display-3 font-weight-bold text-white">Contáctanos</h3>
+        <div class="d-inline-flex text-white">
+          <p class="m-0"><a class="text-white" href="index.html">Inicio</a></p>
+          <p class="m-0 px-2">/</p>
+          <p class="m-0">Contacto</p>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <p class="section-title px-5">
+            <span class="px-2">En Contacto</span>
+          </p>
+          <h1 class="mb-4">Comunícate para cualquier pregunta</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 mb-5">
+            <div class="contact-form">
+              <div id="success"></div>
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Nombre"
+                    required="required"
+                    data-validation-required-message="Por favor, ingrese su nombre"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                    required="required"
+                    data-validation-required-message="Por favor, ingrese su email"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Tema"
+                    required="required"
+                    data-validation-required-message="Por favor, ingrese un tema"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    id="message"
+                    placeholder="Mensaje"
+                    required="required"
+                    data-validation-required-message="Por favor, ingrese su mensaje"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-primary py-2 px-4"
+                    type="submit"
+                    id="sendMessageButton"
+                  >
+                    Envía el Mensaje
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <p>
+              IED Ignacio Pescador <br>
+              Modelo de Educación Relacional <br>
+              Sistema de Educación Relacional de Cundinamarca
+            </p>
+            <div class="d-flex">
+              <i
+                class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Dirección</h5>
+                <p>Calle 1 No. 1-59 Este, B. Centro. Choachí, Cundinamarca, Colombia</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i
+                class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Email</h5>
+                <p>servicioalcliente@ignaciopescador.edu.co</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i
+                class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Teléfono</h5>
+                <p>+057 848 6556</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i
+                class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Horario de Atención</h5>
+                <strong>Lunes a Viernes:</strong>
+                <p class="m-0">07:00 AM - 03:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5"
+    >
+      <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+          <a
+            href=""
+            class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"
+            style="font-size: 40px; line-height: 40px"
+          >
+          <i></i>
+            <span class="text-white">IED IP</span>
+          </a>
+          <p>
+            Modelo de Educación Relacional, Modelo Pedagógico Dialógico: Tejiendo Realidades.
+          </p>
+          <div class="d-flex justify-content-start mt-4">
+            <a
+              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+              style="width: 38px; height: 38px"
+              href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">Contacto</h3>
+          <div class="d-flex">
+            <h4 class="fa fa-map-marker-alt text-primary"></h4>
+            <div class="pl-3">
+              <h5 class="text-white">Dirección</h5>
+              <p>Calle 1 No. 1-59 Este, B. Centro. Choachí, Cundinamarca, Colombia</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <h4 class="fa fa-phone-alt text-primary"></h4>
+            <div class="pl-3">
+              <h5 class="text-white">Teléfono</h5>
+              <p>+057 848 6556</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <h4 class="fa fa-envelope text-primary"></h4>
+            <div class="pl-3">
+              <h5 class="text-white">Email</h5>
+              <p>servicioalcliente@ignaciopescador.edu.co</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">Enlaces</h3>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-white mb-2" href="index.html"
+              ><i class="fa fa-angle-right mr-2"></i>Inicio</a
+            >
+            <a class="text-white mb-2" href="#institucional"
+              ><i class="fa fa-angle-right mr-2"></i>Institucional</a
+            >
+            <a class="text-white mb-2" href="#sedes_rurales"
+              ><i class="fa fa-angle-right mr-2"></i>Primaria</a
+            >
+            <a class="text-white mb-2" href="#basica_secundaria"
+              ><i class="fa fa-angle-right mr-2"></i>Secundaria</a
+            >
+            <a class="text-white mb-2" href="#proyectos"
+              ><i class="fa fa-angle-right mr-2"></i>Proyectos</a
+            >
+            <a class="text-white" href="contacto.html"
+              ><i class="fa fa-angle-right mr-2"></i>Contacto</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+          <h3 class="text-primary mb-4">Novedades</h3>
+          <form name="form_novedades" method="post" action="">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control border-0 py-4"
+                placeholder="Nombre"
+                required="required"
+                name="your-name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control border-0 py-4"
+                placeholder="Email"
+                required="required"
+                name="your-email"
+              />
+            </div>
+            <div>
+              <p>Deseo recibir las novedades en mi correo electrónico</p>
+              <button
+                class="btn btn-primary btn-block border-0 py-3"
+                type="submit"
+                id="submit"
+                value="submit"
+              >
+                Registrarse
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="container-fluid pt-5"
+        style="border-top: 1px solid rgba(23, 162, 184, 0.2) ;"
+      >
+        <p class="m-0 text-center text-white">
+          &copy;
+          <a class="text-primary font-weight-bold" href="#">www.ignaciopescador.edu.co</a>.
+          Todos los derechos reservados 2023.
+
+          <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+          <br/>
+          Designed by
+          <a class="text-primary font-weight-bold" href="https://htmlcodex.com"
+            >HTML Codex</a
+          >
+          Distributed By:
+          <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript (+formulario)-->
+    <script src="js/main.js"></script>
+    <script src="js/form-novedades.js"></script>
+  </body>
+</html>
